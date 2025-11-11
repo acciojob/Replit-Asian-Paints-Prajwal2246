@@ -17,8 +17,11 @@ submitBtn.addEventListener("click",()=>{
 		alert('Please enter a valid ID (1-9) and a color.');
 	}		
 })
-const resetBtn = document.getElementById(reset_button);
-for(let i=1;i<=9;i++){
-	document.getElemntById(i.toString()).style.backgroundColor="transparent";
+const resetBtn = document.getElementById("reset_button");
+resetBtn.addEventListener("click",()=>{
+	for(let i=1;i<=9;i++){
+	document.getElementById(i.toString()).style.backgroundColor="transparent";
 }
+})
+
 
