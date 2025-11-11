@@ -2,7 +2,7 @@
 const submitBtn=document.getElementById("submit-btn");
 submitBtn.addEventListener("click",()=>{
      const inputNum=document.querySelector("#block_id").value;
-     const color=document.querySelector("#color-id").value;	
+     const color=document.querySelector("#color_id").value;	
 
 	for(let i=1;i<=9;i++){
 		document.getElementById(i.toString()).style.backgroundColor='transparent';
