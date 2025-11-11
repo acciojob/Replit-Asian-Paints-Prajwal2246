@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const submitBtn=document.getElementById("submit-btn");
 submitBtn.addEventListener("click",()=>{
-     const inputNum=document.querySelector("#block-id").value;
+     const inputNum=document.querySelector("#block_id").value;
      const color=document.querySelector("#color-id").value;	
 
 	for(let i=1;i<=9;i++){
